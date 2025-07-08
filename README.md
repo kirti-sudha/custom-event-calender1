@@ -1,6 +1,5 @@
 # Custom Event Calendar
 
-A modern, feature-rich calendar application built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui.
 
 ## Features
 - Add, edit, and delete events
