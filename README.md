@@ -1,21 +1,16 @@
-#Custom Event Calender
-This project is a dynamic, interactive web-based event calendar for managing personal and professional schedules. It allows users to add, edit, delete, and view events, supporting recurring events and drag-and-drop rescheduling. The application aims to provide a seamless and intuitive scheduling experience.
+# Custom Event Calendar
 
-##Features
-Key features include:
+A modern, feature-rich calendar application built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui.
 
-Monthly Calendar View: Displays a traditional monthly layout, highlights the current day, and allows navigation between months.
-Event Management: Users can add new events with titles, dates/times, descriptions, and recurrence options. Existing events can be edited or deleted.
-Recurring Events: Supports daily, weekly, monthly, and custom recurrence patterns, ensuring all instances are displayed.
-Drag-and-Drop Rescheduling: Events can be easily moved to different dates on the calendar.
-Event Conflict Management: Detects and warns about overlapping events to prevent scheduling conflicts.
-Event Persistence: All event data is saved using Local Storage, ensuring data remains even after page refresh.
-Responsive Design: Adapts to various screen sizes for optimal viewing on desktops and mobile devices.
+## Features
+- Add, edit, and delete events
+- Support for recurring events (daily, weekly, monthly)
+- View events in a monthly grid or list
+- Drag-and-drop event rescheduling
+- Color-coded events and categories
+- Responsive and mobile-friendly UI
 
-
-Installation and Setup
-To run locally:
-Clone: git clone https://github.com/kirti-sudha/custom-event-calender1.git
-
-
-
+## Recurring Events
+- Events that repeat daily, weekly, or monthly
+- Recurring events are visible in all future months according to their pattern
+- (Advanced) Support for deleting or updating individual instances of recurring events (with code modifications)
